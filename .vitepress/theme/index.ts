@@ -4,6 +4,8 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
 
+import Infobox from "../../components/infobox.vue";
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -12,6 +14,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("Infobox", Infobox);
   },
 } satisfies Theme;
