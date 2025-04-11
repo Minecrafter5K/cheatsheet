@@ -1,4 +1,35 @@
+/**
+ * Tailwind CSS
+ * ----------------------------------- */
 @import "tailwindcss";
+
+/**
+ * Fonts
+ * ----------------------------------- */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Jetbrains Mono";
+  font-style: normal;
+  src: url(/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Jetbrains Mono";
+  font-style: italic;
+  src: url(/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf);
+}
+
+:root {
+  --vp-font-family-base: "Space Grotesk", "Consolas", "ui-sans-serif",
+    "system-ui";
+  --vp-font-family-mono: "Jetbrains Mono", "ui-monospace", "Consolas";
+}
+@theme {
+  --font-display: var(--vp-font-family-base);
+  --font-mono: var(--vp-font-family-mono);
+}
 
 /**
  * Customize default theme styling by overriding CSS variables:
@@ -91,6 +122,10 @@
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
+
+.heading .text {
+  text-wrap-mode: nowrap;
+}
 
 :root {
   --vp-home-hero-name-color: transparent;
