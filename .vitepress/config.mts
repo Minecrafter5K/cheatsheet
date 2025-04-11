@@ -1,3 +1,4 @@
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
@@ -7,6 +8,9 @@ export default defineConfig({
     "Daten, Fakten und Übersichten über verschiedenste naturwissenschfliche/technische Themen.",
   markdown: {
     math: true,
+  },
+  vite: {
+    plugins: [tailwindcss()],
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

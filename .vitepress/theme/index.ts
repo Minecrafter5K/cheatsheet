@@ -5,12 +5,13 @@ import DefaultTheme from "vitepress/theme";
 import "./style.css";
 
 import Infobox from "../../components/infobox.vue";
+import Footer from "../../components/Footer.vue";
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      "doc-footer-before": () => h(Footer),
     });
   },
   enhanceApp({ app, router, siteData }) {
