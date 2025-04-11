@@ -12,12 +12,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Übersicht", link: "/uebersicht" },
+      { text: "Biologie", link: "/biologie/" },
       { text: "Chemie", link: "/chemie/" },
     ],
 
     sidebar: [
       { text: "Physikalische Größen", link: "physikalischegroessen" },
       { text: "Einheiten", link: "einheiten" },
+      {
+        text: "Biologie",
+        collapsed: true,
+        items: [
+          { text: "Übersicht", link: "/biologie/" },
+          { text: "Protein Biosynthese", link: "/biologie/proteinbiosysthese" },
+        ],
+      },
       {
         text: "Chemie",
         items: [{ text: "Übersicht", link: "/chemie/" }],
