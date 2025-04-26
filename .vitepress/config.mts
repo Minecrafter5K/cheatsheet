@@ -28,6 +28,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Übersicht", link: "/biologie/" },
+          { text: "DNA", link: "/biologie/dna" },
           { text: "Protein Biosynthese", link: "/biologie/proteinbiosysthese" },
         ],
       },

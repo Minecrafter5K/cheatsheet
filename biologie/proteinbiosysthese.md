@@ -2,8 +2,8 @@
 outline: deep
 
 prev:
-  text: "Biologie - Übersicht"
-  link: "/biologie/"
+  text: "DNA"
+  link: "/biologie/dna"
 next: false
 ---
 
@@ -15,17 +15,18 @@ Bei der Proteinbiosynthese werden Proteine in einer Zelle synthetisiert.
 
 ### Transkription
 
-Zuerst wird zur Herstellung eines Proteins die im Zellkern vorliegende DNA zu mRNA **transkribiert**.
+Zuerst wird zur Herstellung eines Proteins die im Zellkern vorliegende [DNA](/biologie/dna) zu mRNA **transkribiert**.
 Hierfür wird die DNA mithilfe eines Enzyms aufgespalten und die Basen auf passende Basen der mRNA _übersetzt_.
 
 ### Translation
 
 Nachdem die mRNA den Zellkern verlassen hat, wird jetzt das Protein in einem Ribosom hergestellt.
 Dieser Vorgang nennt sich **Translation**.
-Bei der Translation wird ein Protein nach der Reihenfolge seiner Aminosäuren, festgelegt durch die DNA bzw. mRNA, aufgebaut.
+Bei der Translation wird ein Protein nach der Reihenfolge seiner Aminosäuren, festgelegt durch die [DNA](/biologie/dna) bzw. mRNA, aufgebaut.
 
 Immer drei Basen stehen für eine Aminosäure (Genetischer Code). Es wird immer mit der Kombination `AUG` angefangen, die für Aminosäure Methionin (Met/M) steht.
 Darauf folgt eine beliebige Anzahl anderer sog. Basentripletts, bis das Protein, signalisiert durch ein bestimmtes (bzw. drei verschiedene) Basentriplett beendet ist.
+[![Aminoacid Table](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/512px-Aminoacids_table.svg.png?20210405175054])](https://commons.wikimedia.org/wiki/File:Aminoacids_table.svg)
 
 Die Translation im Ribosom erfolgt mithilfe von tRNA. Diese besteht auf der einen Seite aus dem Gegenstück zu einem Basentriplett und auf der anderen Seite aus einer Aminosäure.
 Im Ribosom wird die mRNA im Codon mithilfe dieser tRNA dekodiert und das Protein aufgebaut.
