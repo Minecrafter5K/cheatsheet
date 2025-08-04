@@ -11,4 +11,4 @@ next:
 
 Hier gibts ein paar coole Sachen über die Chemie:
 
-- [Stoffmischungen](Stoffmischungen)
+- [Stoffmischungen](stoffmischungen)

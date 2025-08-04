@@ -34,6 +34,7 @@ export default defineConfig({
       },
       {
         text: "Chemie",
+        collapsed: true,
         items: [
           { text: "Übersicht", link: "/chemie/" },
           { text: "Stoffmischungen", link: "/chemie/stoffmischungen" },
