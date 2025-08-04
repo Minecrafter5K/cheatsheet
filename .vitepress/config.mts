@@ -34,7 +34,10 @@ export default defineConfig({
       },
       {
         text: "Chemie",
-        items: [{ text: "Übersicht", link: "/chemie/" }],
+        items: [
+          { text: "Übersicht", link: "/chemie/" },
+          { text: "Stoffmischungen", link: "/chemie/stoffmischungen" },
+        ],
       },
     ],
 
